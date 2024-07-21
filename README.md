@@ -40,7 +40,7 @@ List the software and hardware requirements necessary to run the code. Include s
 
     Python 3.x
     CUDA and cuDNN (if using GPU)
-    Additional dependencies (list them)
+    Additional dependencies (TensorFlow 2+, Keras, PyTorch, Matplotlib, pandas, NumPy, SciPy, PyQt 5, OpenCV)
 
 ## Installation
 
@@ -92,7 +92,7 @@ The GUI is structured with multiple tabs for efficient navigation:
 |----------------------------------------------|---------------------------------------------------------------------------------------------|
 | **Current code version**                     | v2.1.4                                                                                      |
 | **Permanent link to code/repository**        | [GitHub Repository](https://github.com/Hamed-Aghapanah/CMRI-Insight)                        |
-| **Permanent link to reproducible capsule**   | [Code Ocean Capsule](https://codeocean.com/capsule/0270963/tree/v1)                         |
+| **Permanent link to reproducible capsule**   | [Code Ocean Capsule](https://codeocean.com/capsule/4020757/tree)                         |
 | **Legal code license**                       | MIT License                                                                                 |
 | **Code versioning system used**              | Git                                                                                         |
 | **Software code languages, tools, services** | Python, GitHub                                                                              |
