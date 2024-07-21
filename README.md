@@ -81,9 +81,10 @@ python CMRI-Insight_GUI.py
 </div>
 
 This interface features multiple views of the heart with segmented regions distinctly highlighted in various colors:
-- **Left Ventricle (Blue)**
-- **Right Ventricle (Red)**
-- **Myocardium (Green)**
+- **Left Ventricle** (<span style="color: blue;">Blue</span>)
+- **Right Ventricle** (<span style="color: red;">Red</span>)
+- **Myocardium** (<span style="color: green;">Green</span>)
+
 
 Additionally, it provides comprehensive patient information, DICOM data, and navigation controls for examining MRI slices.
 
