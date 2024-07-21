@@ -14,7 +14,7 @@ CMRI Insight is an advanced Python-based Graphical User Interface (GUI) designed
 ## Version 2
 <div align="center">
   <div style="float:left;margin-right:10px;">
-    <img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/version2.gif" width="600px"><br>
+    <img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/version2.gif" width="900px"><br>
   </div>
   <div style="float:right;margin-right:0px;">
     <p style="font-size:3.5vw;">  Gif 1 : GUI Version 2 </p>
@@ -24,7 +24,7 @@ CMRI Insight is an advanced Python-based Graphical User Interface (GUI) designed
 ## Version 1
 <div align="center">
   <div style="float:left;margin-right:10px;">
-    <img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/version1.gif" width="600px"><br>
+    <img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/version1.gif" width="900px"><br>
   </div>
   <div style="float:right;margin-right:0px;">
     <p style="font-size:3.5vw;">  Gif 2 : GUI Version 1 </p>
@@ -81,9 +81,10 @@ python CMRI-Insight_GUI.py
 </div>
 
 This interface features multiple views of the heart with segmented regions distinctly highlighted in various colors:
-- **Left Ventricle** (<span style="color: blue;">Blue</span>)
-- **Right Ventricle** (<span style="color: red;">Red</span>)
-- **Myocardium** (<span style="color: green;">Green</span>)
+
+<div align="left">
+<img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/legend.JPG" width="200px" >
+</div>
 
 
 Additionally, it provides comprehensive patient information, DICOM data, and navigation controls for examining MRI slices.
@@ -99,8 +100,14 @@ Additionally, it provides comprehensive patient information, DICOM data, and nav
 The GUI is structured with multiple tabs for efficient navigation:
 - **File**: Tools for project and file management.
 - **Edit**: Data manipulation and management features.
-- **Image Tools**: Data extraction and enhancement functionalities.
+- **Image**: Data extraction and enhancement functionalities.
 - **Segmentation**: Manual and automatic segmentation options.
+- **Analysis and Tracking**: Provides tools for analyzing and tracking cardiac motion and strain.
+- **Tools**: Additional utilities for enhancing the analysis process, such as measurement tools and annotation features.
+- **View**: Options for customizing the display and visualization settings of the images and analysis results.
+- **Help**: Access to user guides, documentation, and support resources.
+
+
 
 ## Future Work
 - **Improvement of User Interface**: Enhancing UI for better user experience and real-time collaboration.
@@ -120,7 +127,7 @@ The GUI is structured with multiple tabs for efficient navigation:
 
 ## Contact
 For any questions or support, please contact:
-- Hamed Aghapanah (Corresponding Author): [h.aghapanah@amt.mui.ac.ir](mailto:h.aghapanah@amt.mui.ac.ir)
-- Saeed Kermani: [kermani@med.mui.ac.ir](mailto:kermani@med.mui.ac.ir)
-- Reza Rasti: [r.rasti@eng.ui.ac.ir](mailto:r.rasti@eng.ui.ac.ir)
+- Hamed Aghapanah : [h.aghapanah@amt.mui.ac.ir](mailto:h.aghapanah@amt.mui.ac.ir)
+- Saeed Kermani (Corresponding Author): [kermani@med.mui.ac.ir](mailto:kermani@med.mui.ac.ir)
+- Reza Rasti    (Corresponding Author): [r.rasti@eng.ui.ac.ir](mailto:r.rasti@eng.ui.ac.ir)
 
