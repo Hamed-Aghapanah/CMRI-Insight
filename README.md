@@ -67,7 +67,8 @@ python CMRI-Insight_GUI.py
 ### Sample CMRI Image Displaying Localization Outcomes
 
 <div align="center">
-<img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/croped_test_batch1_pred.jpg" width="600px" alt="Fig. 3 Array of cardiac MRI images showcasing the application of YOLOv7 technology for precise region of interest (ROI) identification, highlighting the automated detection and localization capabilities within various cardiac structures">
+<img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/croped_test_batch1_pred.jpg" height="400px" alt="Fig. 3 Array of cardiac MRI images showcasing the application of YOLOv7 technology for precise region of interest (ROI) identification, highlighting the automated detection and localization capabilities within various cardiac structures">
+<img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/test_batch0_pred.jpg" height="400px" alt="Fig. 3 Array of cardiac MRI images showcasing the application of YOLOv7 technology for precise region of interest (ROI) identification, highlighting the automated detection and localization capabilities within various cardiac structures">
 
   <p>Fig. 2 Array of cardiac MRI images showcasing the application of YOLOv7 technology for precise region of interest (ROI) identification, highlighting the automated detection and localization capabilities within various cardiac structures </p>
 </div>
