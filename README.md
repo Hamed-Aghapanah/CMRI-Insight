@@ -17,7 +17,7 @@ CMRI Insight is an advanced Python-based Graphical User Interface (GUI) designed
     <img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/version2.gif" width="600px"><br>
   </div>
   <div style="float:right;margin-right:0px;">
-    <p style="font-size:2.5vw;">  GUI Version 2 </p>
+    <p style="font-size:3.5vw;">  Gif 1 : GUI Version 2 </p>
   </div>
 </div>
 
@@ -27,7 +27,7 @@ CMRI Insight is an advanced Python-based Graphical User Interface (GUI) designed
     <img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/version1.gif" width="600px"><br>
   </div>
   <div style="float:right;margin-right:0px;">
-    <p style="font-size:2.5vw;">  GUI Version 1 </p>
+    <p style="font-size:3.5vw;">  Gif 2 : GUI Version 1 </p>
   </div>
 </div>
 
@@ -56,11 +56,29 @@ python CMRI-Insight_GUI.py
 
 
 ## Flowchart of CMRI Insight
+<div align="center">
 <img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/Graphical%20Abstract.png" width="600px" alt="Flowchart of CMRI Insight GUI">
+    <p>Fig. 1 Flowchart of CMRI Insight GUI </p>
+
+</div>
+
+
+## Example of Localization
+### Sample CMRI Image Displaying Localization Outcomes
+
+<div align="center">
+<img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/croped_test_batch1_pred.jpg" width="600px" alt="Fig. 3 Array of cardiac MRI images showcasing the application of YOLOv7 technology for precise region of interest (ROI) identification, highlighting the automated detection and localization capabilities within various cardiac structures">
+
+  <p>Fig. 2 Array of cardiac MRI images showcasing the application of YOLOv7 technology for precise region of interest (ROI) identification, highlighting the automated detection and localization capabilities within various cardiac structures </p>
+</div>
+
 
 ## Example of Segmentation
 ### Sample CMRI Image Displaying Segmentation Outcomes
+<div align="center">
 <img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/00.PNG" width="600px" alt="CMRI Segmentation Example">
+   <p>Fig.3 CMRI Segmentation Example.</p>
+</div>
 
 This interface features multiple views of the heart with segmented regions distinctly highlighted in various colors:
 - **Left Ventricle (Blue)**
@@ -72,8 +90,8 @@ Additionally, it provides comprehensive patient information, DICOM data, and nav
 ## 3D Visualization
 ### 3D Mesh and Bull's Eye Pattern
 <div align="center">
-  <img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/5555.PNG" width="600px" alt="3D Mesh Visualization">
-  <p>Fig. 5: 3D Visualization of Contours Extracted from CVI42. Initial 3D mesh (A), recolored 3D mesh featuring a bull’s eye pattern (B), and bull’s eye pattern (C).</p>
+  <img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/5555.PNG" width="900px" alt="3D Mesh Visualization">
+  <p>Fig. 4: 3D Visualization of Contours Extracted from CVI42. Initial 3D mesh (A), recolored 3D mesh featuring a bull’s eye pattern (B), and bull’s eye pattern (C).</p>
 </div>
 
 ## Tabs Introduction
