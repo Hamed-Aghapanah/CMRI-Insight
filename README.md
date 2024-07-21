@@ -17,7 +17,7 @@ CMRI Insight is an advanced Python-based Graphical User Interface (GUI) designed
     <img src="https://github.com/Hamed-Aghapanah/CMRI-Insight/blob/main/images/version2.gif" width="900px"><br>
   </div>
   <div style="float:right;margin-right:0px;">
-    <p style="font-size:3.5vw;">  Gif 1 : GUI Version 2 </p>
+    <p style="font-size:3.5vw;">  Gif 1 : GUI Version 2.1.4 </p>
   </div>
 </div>
 
