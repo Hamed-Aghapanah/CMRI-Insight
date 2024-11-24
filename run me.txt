@@ -1,5 +1,0 @@
-anaconda  ==> designer
-anaconda
-F:
-cd F:\project\3_current\113-fulad\GUI
-pyuic5 -x GUI.ui -o GUI.py
