@@ -1,84 +1,154 @@
-Here's a professional `README.md` in English for your CMRI-Insight GitHub repository:
+# 🔬 CMRI-Insight: Cardiac MRI Analysis Toolkit
 
-```markdown
-# CMRI-Insight: Cardiac MRI Analysis Toolkit
+![CMRI Example Image](images/cmri_example.png)
 
-![CMRI Example Image](images/cmri_example.png) <!-- Add a representative image if available -->
+## 📌 Overview
+**CMRI-Insight** is an open-source Python-based toolkit for the automated **segmentation**, **motion tracking**, and **functional analysis** of Cardiac Magnetic Resonance Imaging (CMRI) data. With integrated deep learning models such as **CardSegNet** and **MECardNet**, it provides accurate delineation of the left ventricle (LV), right ventricle (RV), and myocardium (Myo), facilitating both research and clinical workflows.
 
-## Overview
-CMRI-Insight is an advanced toolkit for processing and analyzing Cardiac Magnetic Resonance Imaging (CMRI) data. This repository provides tools for cardiac segmentation, functional analysis, and visualization of CMRI datasets.
+The toolkit includes a **user-friendly GUI**, preprocessing scripts, segmentation pipelines, strain analysis modules, and AHA-compliant visualizations, helping accelerate CMRI data interpretation.
 
-## Key Features
-- 🫀 Automated cardiac chamber segmentation
-- 📊 Quantitative analysis of cardiac function
-- 📈 Visualization tools for CMRI data
-- 🏷️ Support for DICOM and NIfTI formats
-- 🧠 Machine learning-ready pipeline
+## 🧠 Key Features
+- ✅ Deep learning-based cardiac segmentation (LV, RV, Myo)
+- ✅ Motion tracking and myocardial strain analysis
+- ✅ AHA-standard Bull’s-eye visualization
+- ✅ 3D mesh reconstruction of myocardial structures
+- ✅ Support for DICOM and NIfTI formats
+- ✅ PyQt5-based GUI for ease of use
+- ✅ Customizable segmentation models
+- ✅ Machine-learning ready backend for advanced users
 
-## Installation
+## ⚙️ Installation
 
-### Prerequisites
+### ✅ Prerequisites
 - Python 3.8+
-- pip package manager
+- pip
+- Git
 
-### Installation Steps
+### 🔧 Setup Instructions
 ```bash
+# Clone the repository
 git clone https://github.com/Hamed-Aghapanah/CMRI-Insight.git
 cd CMRI-Insight
+
+# Install required packages
 pip install -r requirements.txt
 ```
+> 💡 For GPU acceleration, ensure proper installation of CUDA and a GPU-compatible version of TensorFlow or PyTorch.
 
-## Usage
-```python
-from cmri_insight import Processor
+## 🧪 Usage
 
-# Load and process CMRI data
-processor = Processor('path/to/your/dicom/folder')
-results = processor.analyze()
-results.visualize()
+### 🎛️ Launch GUI
+```bash
+python main.py
 ```
 
-## Documentation
-For detailed documentation, please visit our [Wiki pages](https://github.com/Hamed-Aghapanah/CMRI-Insight/wiki).
-
-## Dataset Structure
-We recommend organizing your CMRI datasets as follows:
-```
-patient_data/
-├── patient_01/
-│   ├── DICOM/
-│   └── annotations.xml
-├── patient_02/
-│   ├── DICOM/
-│   └── annotations.xml
-└── ...
+### 🛠️ Command-Line Interface (CLI)
+```bash
+python segment.py --input path/to/dicom --model CardSegNet
 ```
 
-## Contributing
-We welcome contributions! Please follow these steps:
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-Hamed Aghapanah - [email@example.com](mailto:email@example.com)  
-Project Link: [https://github.com/Hamed-Aghapanah/CMRI-Insight](https://github.com/Hamed-Aghapanah/CMRI-Insight)
-
-## Acknowledgments
-- [List any libraries or frameworks you used]
-- [Inspiration from other projects]
+## 📂 Recommended Directory Structure
+```
+CMRI-Insight/
+├── cmri_insight/         # Core application logic
+│   ├── gui/              # GUI components (PyQt5)
+│   ├── models/           # DL models (CardSegNet, MECardNet)
+│   ├── utils/            # Helper functions
+│   └── analysis/         # Strain and function analysis
+├── data/                 # Sample/test datasets
+├── images/               # Screenshots and visual assets
+├── scripts/              # Pre/postprocessing scripts
+├── supplementary/        # Results, metrics, figures
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
-**Recommendations to enhance your repository:**
-1. Add a representative image in the `images/` folder
-2. Include a `requirements.txt` file with all dependencies
-3. Create a basic `LICENSE` file
-4. Set up GitHub Wiki for documentation
-5. Add GitHub badges (build status, Python version, etc.) if applicable
+## 📦 Sample Data
+We provide de-identified sample CMRI datasets:
+- `data/sample_dicom/`: Example DICOM series
+- `data/sample_nifti/`: Converted NIfTI versions
+- `supplementary/validation_results/`: Metrics (Dice, Jaccard, Hausdorff)
 
-Would you like me to modify any specific section or add more details about particular functionality?
+> 🔗 For full datasets, see [UK Biobank](https://www.ukbiobank.ac.uk/) or contact the authors.
+
+## 📚 Documentation
+Comprehensive documentation and usage tutorials are available on our [Wiki](https://github.com/Hamed-Aghapanah/CMRI-Insight/wiki).
+
+## 📬 Contact
+- **Hamed Aghapanah**  
+📧 [h.aghapanah@amt.mui.ac.ir](mailto:h.aghapanah@amt.mui.ac.ir)  
+👨‍💻 [GitHub Profile](https://github.com/Hamed-Aghapanah)
+
+## 📝 Citation
+If you use this toolkit in your research, please cite:
+
+```bibtex
+@article{aghapanah2025cmri,
+  title={CMRI Insight: A GUI-Based Open-Source Tool for Cardiac MRI Segmentation and Motion Tracking Application},
+  author={Aghapanah, Hamed and Saeeidi Rad, Ali and Rabbani, Hossein and Kermani, Saeed and Arabi, Hossein},
+  journal={SoftwareX},
+  year={2025}
+}
+```
+
+## 🛡️ License
+Distributed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+We welcome contributions!  
+Please:
+1. Fork this repo
+2. Create a branch (`git checkout -b feature/FeatureName`)
+3. Commit your changes
+4. Push the branch (`git push origin feature/FeatureName`)
+5. Open a pull request
+
+## ✅ Roadmap
+- [ ] Support for multi-center dataset integration
+- [ ] Real-time motion tracking during CMRI acquisition
+- [ ] YOLOv9-based ROI localization
+- [ ] Export to standard clinical report formats
+- [ ] Expanded tutorials and API references
+
+## 📎 Related Publications
+- **CardSegNet** – [DOI link]
+- **MECardNet** – [DOI link]
+- **Cardiac MR Segmentation Benchmarks** – [DOI link]
+
+## 🖼️ Figures from the Paper
+### Overview Diagram
+![overview_diagram.png](images/overview_diagram.png)
+
+### Segmentation Pipeline
+![segmentation_pipeline.png](images/segmentation_pipeline.png)
+
+### Gui Screenshot
+![gui_screenshot.png](images/Picture1.png)
+
+### Strain Analysis Output
+![strain_analysis_output.png](images/strain_analysis_output.png)
+
+### Bullseye Plot
+![bullseye_plot.png](images/bullseye_plot.png)
+
+### 3D Reconstruction
+![3d_reconstruction.png](images/3d_reconstruction.png)
+
+### Metrics Results
+![metrics_results.png](images/metrics_results.png)
+## 🖼️ Figures from the Paper
+### Figure 1: Workflow of the CMRI Insight application: from data loading to export.
+![Figure 1](images/workflow_flowchart.png)
+
+### Figure 2: Graphical User Interface showing cardiac segmentation views and controls.
+![Figure 2](images/gui_interface.png)
+
+### Figure 3: ROI identification using YOLOv7 on cardiac MRI series.
+![Figure 3](images/yolo_roi_detection.png)
+
+### Figure 4: Comparison of segmentation results: Manual vs CardSegNet vs MECardNet.
+![Figure 4](images/segmentation_comparison.png)
+
+### Figure 5: 3D visualization of contours and Bull's-eye representation from CVI42.
+![Figure 5](images/3d_visualization.png)
